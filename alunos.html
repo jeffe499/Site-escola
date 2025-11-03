@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang='pt-BR'>
+<head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>Área do Aluno - Colégio Presidente Vargas</title><link rel='stylesheet' href='estilos/styles.css'></head>
+<body>
+<header class='site-header'><div class='container header-grid'><div class='brand'><img src='imagens/logo.svg' alt='logo'><div><h1>Área do Aluno</h1><div class='sub'>Portal do estudante (demo)</div></div></div><nav class='main-nav'><a href='index.html'>Home</a><a href='projetos.html'>Projetos</a></nav><div></div></div></header>
+<main class='container'>
+  <h2>Login Simulado</h2>
+  <form id='login-form'>
+    <label>RA<input name='ra' required></label>
+    <label>Senha<input type='password' name='senha' required></label>
+    <button class='btn' type='submit'>Entrar</button>
+  </form>
+  <div id='student-area' style='margin-top:12px'></div>
+</main>
+<footer class='site-footer'><div class='container footer-grid'><small>&copy; <span id='year'></span> Colégio Estadual Presidente Vargas</small></div></footer>
+<script type='application/json' id='embedded-boletim'>{"student": "Aluno Exemplo", "ra": "1234567", "grades": [{"subject": "Matemática", "grade": "8.5"}, {"subject": "Português", "grade": "9.0"}, {"subject": "História", "grade": "8.0"}]}</script>
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+document.getElementById('login-form').addEventListener('submit', function(e){ e.preventDefault(); var boletim = JSON.parse(document.getElementById('embedded-boletim').textContent || '{}'); var html = '<h3>Bem-vindo (simulado) - ' + (boletim.student || '') + '</h3>'; html += '<p>RA: ' + (boletim.ra || '') + '</p>'; html += '<h4>Notas</h4><ul>'; (boletim.grades || []).forEach(function(g){ html += '<li>' + g.subject + ': ' + g.grade + '</li>'; }); html += '</ul>'; document.getElementById('student-area').innerHTML = html; });
+</script>
+</body>
+</html>

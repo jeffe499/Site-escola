@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Maria da Silva",
+    "subject": "Matemática",
+    "email": "maria.silva@seed.pr.gov.br",
+    "bio": "Coordenadora de matemática, 10 anos de experiência."
+  },
+  {
+    "name": "Carlos Pereira",
+    "subject": "História",
+    "email": "carlos.pereira@seed.pr.gov.br",
+    "bio": "Professor de história moderna e local."
+  },
+  {
+    "name": "Ana Oliveira",
+    "subject": "Português",
+    "email": "ana.oliveira@seed.pr.gov.br",
+    "bio": "Língua portuguesa e projetos de leitura."
+  }
+]

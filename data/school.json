@@ -1,0 +1,13 @@
+{
+  "name": "Colégio Estadual Presidente Vargas - E.F.M",
+  "address": "Rua Presidente Vargas, 235 - Centro, Pinhal de São Bento - PR",
+  "cep": "85727-000",
+  "phone": "(46) 3560-1136",
+  "email": "psbpvargas@seed.pr.gov.br",
+  "inep": "41087992",
+  "director": "Daiane Aparecida Savoldi Vieira Velho",
+  "motto": "Educação de qualidade para todos",
+  "students": 420,
+  "teachers": 18,
+  "projects": 4
+}

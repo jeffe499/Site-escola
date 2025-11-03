@@ -1,0 +1,42 @@
+[
+  {
+    "id": 101,
+    "title": "Clube de Robótica",
+    "category": "ciencia",
+    "summary": "Alunos constroem robôs e aprendem programação.",
+    "start": "2024-03-01",
+    "lead": "Prof. Carlos",
+    "status": "ativo",
+    "details": "Encontros semanais com desafios e participação em feiras."
+  },
+  {
+    "id": 102,
+    "title": "Projeto Horta Escolar",
+    "category": "sustentabilidade",
+    "summary": "Horta pedagógica para ensino de ciências e alimentação saudável.",
+    "start": "2023-08-20",
+    "lead": "Profª Ana",
+    "status": "ativo",
+    "details": "Cultivo orgânico, compostagem e integração com a comunidade."
+  },
+  {
+    "id": 103,
+    "title": "Feira de Leitura",
+    "category": "cultura",
+    "summary": "Estimular a leitura com atividades e feiras literárias.",
+    "start": "2025-05-10",
+    "lead": "Profª Ana Oliveira",
+    "status": "ativo",
+    "details": "Oficinas, contação de histórias e biblioteca viva."
+  },
+  {
+    "id": 104,
+    "title": "Treinamento Esportivo Escolar",
+    "category": "esportes",
+    "summary": "Preparação física e participação em competições regionais.",
+    "start": "2024-02-01",
+    "lead": "Prof. João",
+    "status": "ativo",
+    "details": "Treinos, calendário de jogos e suporte nutricional."
+  }
+]

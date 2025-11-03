@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "type": "news",
+    "date": "2025-11-04",
+    "title": "Alunos participam da FECCI em Curitiba",
+    "summary": "O Colégio representou Pinhal de São Bento na Feira de Cultura Científica do Paraná."
+  },
+  {
+    "id": 2,
+    "type": "event",
+    "date": "2025-12-15",
+    "title": "Festa de Conclusão do Ano Letivo",
+    "summary": "Apresentações culturais e entrega de certificados."
+  }
+]
